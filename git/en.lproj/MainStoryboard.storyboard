@@ -25,10 +25,19 @@
                                     <action selector="clickTheButton:" destination="2" eventType="touchUpInside" id="TSQ-8d-XBC"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nTY-sE-Dzy">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="241" id="JSV-hk-QZR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="nTY-sE-Dzy" firstAttribute="top" secondItem="3" secondAttribute="top" constant="145" id="Ijb-kM-sfB"/>
                             <constraint firstAttribute="bottom" secondItem="6fn-Gn-6wR" secondAttribute="bottom" constant="225" id="aN1-zH-3zs"/>
+                            <constraint firstItem="nTY-sE-Dzy" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="41" id="p28-7D-7OS"/>
                             <constraint firstItem="6fn-Gn-6wR" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="101" id="z2D-MO-8KT"/>
                         </constraints>
                     </view>
